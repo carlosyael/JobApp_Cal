@@ -1,5 +1,5 @@
 {
-   "checksum": "5c47ddac954852e4284c604ae7e59292",
+   "checksum": "dccd0e0b4217aef40022b9f0ecf6b115",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -8,8 +8,6 @@
             "guid": "a38566ee-47f5-494e-bd98-204f686d5901",
             "id": "23",
             "name": "Practica IV Cuarentena Quinto Secundaria.pdf",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "file:///D:/Practica%20IV%20Cuarentena%20Quinto%20Secundaria.pdf"
          }, {
@@ -18,8 +16,6 @@
             "guid": "2dc6f09d-020f-4164-adab-b4a2ce413fd7",
             "id": "24",
             "name": "2020-C-3-1868-2873-TDS-003: Diferencia entre programación secuencial y estructurada.",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://plataformavirtual.itla.edu.do/mod/forum/discuss.php?d=21684"
          }, {
@@ -28,8 +24,6 @@
             "guid": "8c50f4df-f736-40e4-afdc-e01aa079da9b",
             "id": "25",
             "name": "EaseUS Partition Master 14.5 | Multienlaces",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://pastepvp.org/?v=3572"
          }, {
@@ -38,8 +32,6 @@
             "guid": "c8b4539c-f11e-4f5a-8c60-262781ac74dc",
             "id": "26",
             "name": "Acoplamiento y Cohesión - Disrupción Tecnológica",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.disrupciontecnologica.com/acoplamiento-y-cohesion/"
          }, {
@@ -48,8 +40,6 @@
             "guid": "afe29f62-15b9-43d8-84ff-82a023e6dde5",
             "id": "27",
             "name": "Patrones creacionales",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://refactoring.guru/es/design-patterns/creational-patterns"
          }, {
@@ -58,8 +48,6 @@
             "guid": "86c26ebb-75e8-4fa0-8aba-21545c30db63",
             "id": "28",
             "name": "ejecutar vistas de tablas - Buscar con Google",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.google.com/search?q=ejecutar+vistas+de+tablas&oq=ejecutar+vistas+de+tablas&aqs=chrome..69i57j33i160l5.4435j0j15&sourceid=chrome&ie=UTF-8"
          }, {
@@ -68,8 +56,6 @@
             "guid": "439feb29-0379-4611-9518-a5f668c6fd85",
             "id": "29",
             "name": "Otorgar privilegios necesarios a usuarios de Oracle mediante scripts SQL en el directorio /samples - IBM Documentation",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.ibm.com/docs/es/idr/11.3.3?topic=ccreod-granting-required-privileges-oracle-users-using-sql-scripts-in-samples-directory"
          }, {
@@ -78,8 +64,6 @@
             "guid": "d7bc6e01-face-4248-83da-4a4e5f94dce3",
             "id": "30",
             "name": "Oracle / PLSQL: Roles",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.techonthenet.com/oracle/roles.php"
          }, {
@@ -88,8 +72,6 @@
             "guid": "d556b1b7-623d-48d0-bfa7-de928f032eea",
             "id": "31",
             "name": "DP_20_1_Practice_esp.docx - academy.oracle.com Programaci\\u00f3n de Bases de Datos con SQL 20-1 Garant\\u00eda de Resultados de Consultas de Calidad T\\u00e9cnica | Course Hero",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.coursehero.com/file/63901201/DP-20-1-Practice-espdocx/"
          }, {
@@ -98,8 +80,6 @@
             "guid": "b01ff09b-30c7-4c79-ab7d-5e449a3374e8",
             "id": "32",
             "name": "Vimm's Lair: Preserving the Classics",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://vimm.net/"
          }, {
@@ -108,8 +88,6 @@
             "guid": "2c9fd048-0cca-4a37-8de2-fdd79275cb32",
             "id": "33",
             "name": "Vimm's Lair: Emulation Lair",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://vimm.net/?p=emulate"
          }, {
@@ -118,8 +96,6 @@
             "guid": "54759f40-8769-44e4-b22f-c0fb42d33a36",
             "id": "34",
             "name": "Pokemon Colosseum (USA) Gamecube ISO - CDRomance",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://cdromance.com/gamecube/pokemon-colosseum-usa/"
          }, {
@@ -128,8 +104,6 @@
             "guid": "37bfaa5c-172b-4ab4-9f3a-9c2179ba20df",
             "id": "35",
             "name": "Search Results for: guitar hero in Nintendo Gamecube ISOs / GC GCN NGC",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.emuparadise.me/roms/search.php?query=guitar+hero&sysid=42"
          }, {
@@ -138,8 +112,6 @@
             "guid": "f3424af8-b18f-490d-8200-f80261d0022e",
             "id": "36",
             "name": "YouTube",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.youtube.com/"
          }, {
@@ -148,8 +120,6 @@
             "guid": "5688a723-745e-4724-9747-6cd6795d37d8",
             "id": "37",
             "name": "PEELINK",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "http://www.peelink2.org/2015/07/ver-ted-2-2015.html"
          }, {
@@ -158,8 +128,6 @@
             "guid": "51b1357b-31f2-487c-934a-994fe17126bc",
             "id": "38",
             "name": "",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://m.youtube.com/#/results?q=como%20encontrar%20aldeas%20en%20minecraft&sm=1"
          }, {
@@ -168,8 +136,6 @@
             "guid": "181b62ac-8f31-436d-a4d8-e7cfe19df945",
             "id": "39",
             "name": "",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.youtube.com/"
          }, {
@@ -178,8 +144,6 @@
             "guid": "450bb95b-b350-4278-9a2c-84a6a90bef25",
             "id": "40",
             "name": "Google",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.google.com.do/?gfe_rd=cr&ei=3MQGV73VHLC9hAbGuYigAg&gws_rd=ssl"
          }, {
@@ -188,8 +152,6 @@
             "guid": "85612819-3335-4040-a09e-4c8ef3a50363",
             "id": "41",
             "name": "Facebook - Inicia sesión o regístrate",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.facebook.com/?stype=lo&jlou=Afcik_btEdzCTcj8smyDM__qVq_z60yqtXvkYHx0PWTLwud4dIFVjOc-uRwqR_VbUKT_CPFpNSbN76CuxONCA2LM7luAVYoT87SGbObBujOQ8g&smuh=16827&lh=Ac_HbwcnbeXmwaOc"
          }, {
@@ -198,8 +160,6 @@
             "guid": "90f92d51-ebfc-443e-aa76-db2aca924eb9",
             "id": "42",
             "name": "asta.axeso5.com/landing?key=adcs22&utm_source=adcash&utm_medium=cpa&utm_campaign=asta_latam_adcash_lanzamiento&utm_content=1107803",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "http://asta.axeso5.com/landing?key=adcs22&utm_source=adcash&utm_medium=cpa&utm_campaign=asta_latam_adcash_lanzamiento&utm_content=1107803"
          }, {
@@ -208,8 +168,6 @@
             "guid": "db7df28e-46da-4708-a893-97b871517783",
             "id": "43",
             "name": "Gmail",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://accounts.google.com/b/0/AddMailService"
          }, {
@@ -218,8 +176,6 @@
             "guid": "8a825ffc-f81e-45c9-9b23-c10d9155891d",
             "id": "44",
             "name": "YouTube",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://youtube.com/"
          }, {
@@ -228,8 +184,6 @@
             "guid": "8dda8210-711e-4940-a996-805cd7ec5bbb",
             "id": "45",
             "name": "Maps",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://maps.google.com/"
          }, {
@@ -238,8 +192,6 @@
             "guid": "c72306d8-951e-49f3-9807-11b32079a70a",
             "id": "46",
             "name": "Nueva pestaña",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "chrome://newtab/"
          }, {
@@ -248,8 +200,6 @@
             "guid": "c3a5762c-f209-48f8-b923-3b72f4a1c498",
             "id": "47",
             "name": "Dashboard",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://eva.unicda.edu.do/my/"
          }, {
@@ -258,8 +208,6 @@
             "guid": "392d547c-7e7e-457a-a5fb-111ffc929485",
             "id": "48",
             "name": "Espacio Virtual de Aprendizaje UNICDA: Entrar al sitio",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://eva.unicda.edu.do/login/index.php"
          }, {
@@ -268,8 +216,6 @@
             "guid": "20419c81-068c-4fb4-9c15-b4907f44a2e1",
             "id": "49",
             "name": "John Adams - Buscar con Google",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.google.com/search?q=John+Adams&oq=John+Adams&aqs=chrome..69i57j46l2j0l3j46j0.2451j0j7&sourceid=chrome&ie=UTF-8"
          }, {
@@ -278,8 +224,6 @@
             "guid": "6762a75c-2732-46bc-a0e2-1833314bfb72",
             "id": "50",
             "name": "Live Sports",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "http://nbastream.tv/"
          }, {
@@ -288,8 +232,6 @@
             "guid": "e30f70d6-6c5b-4317-a1eb-31b7cb0afbcd",
             "id": "51",
             "name": "Distribución Celulares Usados al Por Mayor Y Nuevos Mayoristas de Celulares | Digital Tech International | Miami",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.digitaltechmia.com/"
          }, {
@@ -298,8 +240,6 @@
             "guid": "80087499-0360-400b-8f11-4d1a7e35ecdc",
             "id": "52",
             "name": "Booking.com",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "http://secure.rezserver.com/sdk/v1/LinkFwd?refid=9005&destination=booking&refclickid=webslice1819"
          }, {
@@ -308,8 +248,6 @@
             "guid": "20a956f2-e288-4e51-bf96-dd9cdb98d2bf",
             "id": "53",
             "name": "Bing",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.bing.com/?PC=EE24&form=EE24FV"
          }, {
@@ -318,8 +256,6 @@
             "guid": "ae5e3255-a4ef-4309-8fa6-7c5e01f73357",
             "id": "54",
             "name": "MSN",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://www.msn.com/?PC=EE24&OCID=MSNHP_EE24&form=EE24FV"
          }, {
@@ -328,8 +264,6 @@
             "guid": "07419b6d-fd5e-467d-b95c-c042abadcfd2",
             "id": "55",
             "name": "Área personal",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://plataformavirtual.itla.edu.do/my/"
          }, {
@@ -338,8 +272,6 @@
             "guid": "9eb8c633-1242-4d14-9806-6fd3eb7907a0",
             "id": "56",
             "name": "DomPharma Project",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://dev.azure.com/20198150/DomPharma"
          }, {
@@ -348,18 +280,15 @@
             "guid": "f9dbfb9c-00ee-4f98-a827-987d99706f83",
             "id": "57",
             "name": "Facebook",
-            "show_icon": false,
-            "source": "import_fre",
             "type": "url",
             "url": "https://www.facebook.com/campaign/landing.php?campaign_id=572665646222743&placement=Model%201-20&keyword=0TxSR5RlBEuTZQdO5m0BPJNmdDiCJlIOmWcGS5xlA0iUZAdLlWUHTpNmEBXCM1MImRNXGcE3WRXPCmEfxjRGCoI2RBmXZwtIkWEPTJxkA06R%2FlEAAACkVTZ6&extra_2=DO&creative=bookmark"
          } ],
          "date_added": "13336058555546147",
          "date_last_used": "0",
-         "date_modified": "13326690174572446",
+         "date_modified": "0",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Barra de favoritos",
-         "source": "unknown",
          "type": "folder"
       },
       "other": {
@@ -370,8 +299,6 @@
                "guid": "2a031ecf-afec-4f09-b98a-dcc2c95de000",
                "id": "19",
                "name": "Booking.com",
-               "show_icon": false,
-               "source": "sync",
                "type": "url",
                "url": "http://secure.rezserver.com/sdk/v1/LinkFwd?refid=9005&destination=booking&refclickid=iefav1819"
             } ],
@@ -381,7 +308,6 @@
             "guid": "b4c2bcef-daae-4545-8a23-e25190b97925",
             "id": "18",
             "name": "HP",
-            "source": "unknown",
             "type": "folder"
          }, {
             "children": [ {
@@ -390,8 +316,6 @@
                "guid": "8e61cf3d-a361-40ac-a652-f063d7e28001",
                "id": "21",
                "name": "Lenovo Support",
-               "show_icon": false,
-               "source": "import_fre",
                "type": "url",
                "url": "http://support.lenovo.com/"
             }, {
@@ -400,18 +324,15 @@
                "guid": "92b7f354-74ab-4be8-9c3e-83b4ed1cf8fc",
                "id": "22",
                "name": "Lenovo",
-               "show_icon": false,
-               "source": "import_fre",
                "type": "url",
                "url": "http://www.lenovo.com/"
             } ],
             "date_added": "13336058560250435",
             "date_last_used": "0",
-            "date_modified": "13336061147991721",
+            "date_modified": "0",
             "guid": "0eff4905-4548-4b4d-a4de-0d94cdc658d8",
             "id": "20",
             "name": "Lenovo",
-            "source": "import_fre",
             "type": "folder"
          } ],
          "date_added": "13336058555546153",
@@ -420,7 +341,6 @@
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
          "id": "2",
          "name": "Otros favoritos",
-         "source": "unknown",
          "type": "folder"
       },
       "synced": {
@@ -430,8 +350,6 @@
             "guid": "194e5900-21e1-482d-ae4e-91b50cc4d901",
             "id": "17",
             "name": "Alcatel One Touch Pixi 3 Tema Oficial [RO ... | Desarrollo y la piratería Android",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "http://forum.xda-developers.com/android/general/root-alcatel-one-touch-pixi-34-official-t3193624"
          } ],
@@ -440,11 +358,9 @@
          "date_modified": "13111109432979852",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
          "id": "3",
-         "name": "Favoritos móviles",
-         "source": "unknown",
+         "name": "Favoritos del celular",
          "type": "folder"
       }
    },
-   "sync_metadata": "CkEKHgiIgQISCOECddqJAQAAKg4QABgBIDIoBjAAOABAABIAIAEqGCtZaHlsS3htbDlkYVBJbDA3MmkwSkE9PaAGDBKrAQg2EqYBChxHNlEzNFVMQlRsSHBaZFRXSHlsN1NSSkVKVWs9EiRhZTVlMzI1NS1hNGVmLTQzMDktOGZhNi03YzVlMDFmNzMzNTcYACAAKAAwr+ansO0wOKvnp7DtMECr56ew7TBKHENPWVRRcWZMeTN1UGlGSEFLMjd1Tldza28raz1aIiIg////9zVkYTR2MkxQVEdhS3QzdVpPaVdrZFBwZkh0MD1lAAAAABKrAQg1EqYBChxvclpmV2VpaUlMZXNqd0lMWTJWVFhLN3hJWmM9EiQyMGE5NTZmMi1lMjg4LTRlNTEtYmY5Ni1kZDljZGI5OGQyYmYYACAAKAAwruansO0wOM3mp7DtMEDN5qew7TBKHDREQVJBbEZrTW1yWjRWL2crRDQ0WkdsSWNYQT1aIiIg////7kVpQjF2VDRMN2xsbUNyeTlMWW1ZUTlsUnptQT1lAAAAABKrAQgzEqYBChxhNzFWOExJN2JRcjdaODF3OVRaby9SbmhnR3c9EiRlMzBmNzBkNi02YzViLTQzMTctYTFlYi0zMWI3Y2IwYWZiY2QYACACKAIwkbXm050xOMyvqu/QMECdp+bTnTFKHHY0eFdIY1UzSmFmM203R2x6bFNETlBsR1lCcz1aIiIg////uzFRQi8wTEVkckZtK3VBNUgxNXI0RzB0WTVZST1l83hRZxKrAQg4EqYBChxVdHRFRERpajk1a1RNVHNTN1JQZGFRZ3JjYTg9EiQ5ZWI4YzYzMy0xMjQyLTRkMTQtOTgwNi02ZmQzZWI3OTA3YTAYACAAKAAw1o2gr5IxOJyrr9/6MECcq6/f+jBKHGhZdGUwYXlNT2NiTGJNamFGTUhlcGFiYXlFQT1aIiIg/////UpsTmg1WHpDRXZnU1RPRDhWQTQxTnlyTnI0ND1lAAAAABKqAQgxEqUBChwzKzVtOGwzRE1KdHNrR0lLamplakc4b1NTYTg9EiQyMDQxOWM4MS0wNjhjLTRmYjQtOWMxNS1iNDkwN2Y0NGEyZTEYACACKAIwsr7m050xOJ6vqu/QMECbp+bTnTFKHHMwRVkrNTZ0bjVzUm05UGtueENWTmlVeFkvQT1aISIf////MDZYRUlqU0l1cFVycm5uR3VqMGlycFllSS9nPWUQMP/kEqoBCC4SpQEKHHcxSWJHbm5mbm9uWkIxRGV5REUxQlB6ZmR6cz0SJGM3MjMwNmQ4LTk1MWUtNDlmMy05ODA3LTExYjMyMDc5YTcwYRgAIAAoADD5qqrv0DA4hK2q79AwQIStqu/QMEocNFJkcldkOGRFUnh3b1lxOUg2R0R1MWJpV3VRPVohIh////tSL094bjNGekMwSW4xSjRTNk9UbHFkUXFzTjg9ZQAAAAASqgEIKxKlAQocazFLejdsZXQ4dTNac1VLdExhS3IvVDhJWkZNPRIkZGI3ZGYyOGUtNDZkYS00NzA4LWE4OTMtOTdiODcxNTE3NzgzGAAgAigCMJy15tOdMTiYuKnewjBAl6fm050xShxYN1BGYTllQ2hsam5DTzdhaEpTdWh1SkdPeTA9WiEiH///2mpGakdtQUlwVWRraHloZVdjOXVNQU14aERyYz1le6dAcRKrAQg0EqYBChxCbHh3RmQ2ZE41aUZhTS81eUlOaFl4N2ttVjA9EiQ4MDA4NzQ5OS0wMzYwLTQwMGItOGYxMS00ZDFhN2UzNWVjZGMYACAAKAAw7rSNkNMwOPi1jZDTMED4tY2Q0zBKHGRIUEZOSkZWQVdmWEhvcCtGTTFHK3JsaEllOD1aIiIg////3U1IMzEvUmkrc2VlODRVWEdKR3R4MENCaEJJaz1lAAAAABKpAQgoEqQBChxxV1dRcitCV1dWVHg3clg5cEJ1YVV6VVF4eEE9EiQ0NTBiYjk1Yi1iMzUwLTQyNzgtOWEyYy04NGE2YTkwYmVmMjUYACACKAIwmrXm050xOJSvqd7CMECVp+bTnTFKHG4xK1EycnZxRTE1MGduZ3dKbVpYcTd0S2NxZz1aICIe//5acDNWWWlubXZ3OVdNU0xtZUZkWW5Bc0czTjg9ZRAw/+QSqgEIMBKlAQocbTF2RGlaaXl3RlM1ODNnb1A3ZjIyYi9xdUFFPRIkMzkyZDU0N2MtN2U3ZS00NTdhLWE1ZmItMTExZmZjOTI5NDg1GAAgAigCMJ215tOdMTi5q6rv0DBAmqfm050xShxabGhhcUl3QmFueW5MenRRb3NsK3ZpRHk4VWc9WiEiH////lc5MVdUdDBzdThvOTNVTmZkekZUcGQxOWRzZz1lhfJrjxKpAQgnEqQBChwxR09nWG1Ed3dkc0dtbG0vZFV5NVhmNXRBVk09EiQxODFiNjJhYy04ZjMxLTQzNmQtYTRkOC1lN2NmZTE5ZGY5NDUYACAAKAAwj9K6v5QxOJ3zt97CMECd87fewjBKHEFzRStQTjgzTWE4a1FOeG9RSWcyd1oyWW9jVT1aICIe//1wYXdRMUh5c0Rmd0xkUFVxK3IvMEZIbXBQdEU9ZTj5OTMSqgEILBKlAQocOTV2NFlSM25QeHRKaWlybnNtdTUyZ1QrZUpZPRIkOGE4MjVmZmMtZjgxZS00NWM5LTliMjMtYzEwZDkxNTU4OTFkGAAgAigCMJ615tOdMTjP8rfewjBAmKfm050xShxvT1U4RW5JUU5FdHRaSDBxWXEyVHJCckdINDg9WiEiH///7VEvVG5tM1BHVTBZSTJlV2ZLaFFjVlRjOThFYz1lrBJiAhKpAQgmEqQBChxpTUx5RG5aVys3L0M0U2tHZUVuV0FWZ013bjQ9EiQ1MWIxMzU3Yi0zMWYyLTQ4N2MtOTM0YS05OTRmZTE3MTI2YmMYACAAKAAw1a6p3sIwOPm3qd7CMED5t6newjBKHE9rc3R4a2Vkd2E4dFJkS0JhTFdvWTNCZkFGTT1aICIe//swbUI3enhSSkVlSHI1WGVJTm5LYzNPT2VIbEk9ZQAAAAASqQEIIxKkAQocbld2WUxPOElPbEZJY05vS0pzQkxGRDdobDQ0PRIkMzdiZmFhNWMtMTcyYi00YWI0LTlmM2EtOWMyMTc5YmEyMGRmGAAgAigCMJa15tOdMTi3uKnewjBAjqfm050xShx4WTk4T2tFVEx3dnpLcFg2UnFuYnNBWGdTbHM9WiAiHv/cRUt0eWhqM0hBaDBHQWY5REhxTmc2QWhVQ2dRPWXvGsVxEqoBCC0SpQEKHHVLbHFnN3gxM3UvUVBacmhWUVpzRFJoQk5nTT0SJDhkZGE4MjEwLTcxMWUtNDk0MC1hOTk2LTgwNWNkN2VjNWJiYhgAIAIoAjCwvubTnTE4j7ap3sIwQJmn5tOdMUocUDNyeWJoMXp1SzJvVEhNbmhzMlJQTFRaVFpRPVohIh////ZabVowRFZrQUdlTFNzQ3E1ZTdXMjkxSnZlWmM9ZaT76JgSqQEIIhKkAQocVnRRaGFnVEFXcHlrSnFsZ3hrMGVUd1RPNXlnPRIkNTQ3NTlmNDAtODc2OS00NGU0LWIyMmYtYzBmYjQyZDMzYTM2GAAgAigCMJu15tOdMTitsanewjBAjafm050xShx6S1hsV1NMN2JVREpPbktIa1RDM3JKTnNjNGc9WiAiHv+5RWRLR2tFSExzVUxzUDB6T0tOVXlhdjVNQ3lBPWVPNrxZEqgBCCESowEKHExDRys0NUpDZndCWXcxbHV1bTV2aUtSUVNJOD0SJDJjOWZkMDQ4LTBjY2EtNGEzNy04ZGUyLWZkZDc5Mjc1Y2IzMhgAIAIoAjCgtebTnTE44LWp3sIwQIun5tOdMUocZVNUWFZmRmY3SnlRdGFTcjZTTFBXdFRGL2cwPVofIh3/c2tTUE90THA4alZhT1hzVjhOOVZBdE9EdUl3PWUAK9ktEqgBCCASowEKHDNHcjZnclNkbmhaS1h2UnMwZ0cwN3Bqb3RJOD0SJGIwMWZmMDliLTMwYzctNGM3OS1hYjdkLTVlNDQ5YTMzNzRlOBgAIAIoAjCXtebTnTE4/rCp3sIwQIun5tOdMUocSXRaR1JSeWg0Kzh5b28ySFVBUyt4RjA0bkQ4PVofIh3+dFRzQmgvekZyZndWcHBIeUw2cks1ZUFLS0c0PWUAK9ktEqsBCDcSpgEKHFpja1B3Y0NZVFVKVlU5UjliOHhCbTdZbytDST0SJDA3NDE5YjZkLWZkNWUtNDY3ZC1iOTVjLWMwNDJhYmFkY2ZkMhgAIAIoAjCVtebTnTE4tqH8vu0wQJ2n5tOdMUocUmZ1cnNjNFFzYkw2S1BPdTdLbzdHdzJreUo0PVoiIiD////7RFYySm9KQzEyc3dSaHBQdmgwM3V5djNRT1dJPWXWsNTaEqoBCC8SpQEKHHV3aGN2dExjaHdQdzZuQUM2MEFSRVVXM2JYbz0SJGMzYTU3NjJjLWYyMDktNDhmOC1iOTIzLTNiNzJmNGExYzQ5OBgAIAIoAjCxvubTnTE4sK6q79AwQJmn5tOdMUocZXpSS2xmcXhFSDBCWGg0N1haaW5MUkw5S2hFPVohIh////1zY2JMMVV6UE5MWDhobHB2aGdQc25LL3hVWkk9ZYXya48SpwEIGBKiAQocbkpnNVJFSlloOXVKY2JpVE1YY1RSb1hyNUxRPRIkMmRjNmYwOWQtMDIwZi00MTY0LWFkYWItYjRhMmNlNDEzZmQ3GAAgAigCMJS15tOdMTiRsKnewjBAhKfm050xShxwb2FEOVFCdVFsQzBpakQ0d0tLRW9KYjluV3c9Wh4iHEM3ZHNXNkJRV2lEZzVkN0w0LzZsYUhsL08rbz1lIZrWoBKoAQgeEqMBChxiZC9tZVdYOWhBQjhNL0N1cjgvRTJuaDMwL2M9EiRkN2JjNmUwMS1mYWNlLTQyNDgtODNkYS00YTRlNWY5NGRjZTMYACACKAIwr77m050xOLCwqd7CMECIp+bTnTFKHHQvYjJxS3FpdUFwUVEzUVV3clJ4aWE0OG5LWT1aHyId+0VFTnZJd29BWlBteW04WHVWSEFGUmZxWFNPMD1lMTOvVhKoAQgfEqMBChxZZFhlY0w4SHpuUFlpNCtQc2ZnZjJUN2M0NXM9EiRkNTU2YjFiNy02MjNkLTQ4ZDAtYmZhNy1kZTkyOGYwMzJlZWEYACACKAIwk7Xm050xONCwqd7CMECJp+bTnTFKHDF4ODhtZnJQbHRKcjRZWnZXQVlpdGNWN1R3ST1aHyId/Ss1d0hsTnNBYTdzN0Q4ZGVRZ1FuWHVSWGt1UT1l0/QXKxKoAQgdEqMBChx4U0RRM2QvdGN6alJzVTBrajZucFdac0ppdkk9EiQ0MzlmZWIyOS0wMzc5LTQ2MTEtOTUxOC1hNWY2NjhjNmZkODUYACACKAIwmbXm050xOPKvqd7CMECIp+bTnTFKHGhWenhqSDNZaG85VFp1RitLY0pMMlB4bzFHZz1aHyId905IMUI1OE16bDZubXI0RzVzenovRThzNkxOOD1lwUTKbBKnAQgWEqIBChxQNDREM0thbUFBbGVGd3BtMGhaRjhsOXVPckE9EiQ5MmI3ZjM1NC03NGFiLTRiZTgtOWMzZS04M2I0ZWQxY2Y4ZmMYACAAKAAwvJSgr5IxOJWXoK+SMUCVl6CvkjFKHEZlUlhjRVYrV1dwYllENlFadjdvTUtpM0J1VT1aHiIcRVF5cWl0elJ1Mk52aFl6aW8vVTdhamk3Ly93PWUAAAAAEqcBCBcSogEKHDI4Z0t3SmltOU9lUEV3c0hWTm9wbElheU9iND0SJGEzODU2NmVlLTQ3ZjUtNDk0ZS1iZDk4LTIwNGY2ODZkNTkwMRgAIAAoADDE3baBgjE4h+PC0+cvQIfjwtPnL0ocbVVzelZxUXAveUFGMDBuWkJKb2w4TWdNOXRFPVoeIhwvZkNCQVZ4SUtBd0ZXcndKaHNybnUrL3poZ0U9ZXdwbKMSqQEIJBKkAQocZ1lFTzBpcVdqVUxIaFpVRGhHeTdXbzVXUU9zPRIkZjM0MjRhZjgtYjE4Zi00OTBkLTgyMDAtZjgwMjYxZDAwMjJlGAAgAigCMJK15tOdMTju8rfewjBAj6fm050xShwzaysvZ3YwaVdJSXhSczFXVGh3NmtaUGk5ODg9WiAiHv/uZ1I4bmVwUWNBcmdxOTVmS0Jpd0NqNy9OVE5BPWU4+TkzEqgBCBsSowEKHHoxb2p3azJjT0RPMXdxRUI5Smo0RzBFRUMyYz0SJGFmZTI5ZjYyLTE1YjktNDNkOC04NGZmLTgyYTAyM2U2ZGRlNRgAIAIoAjCYtebTnTE47Lap3sIwQIWn5tOdMUocalMxUDM0d1BDV0h6Q0VVdURkZzFnODBMWTZZPVofIh3dRzJGZE5uNDh3RXFHKzZjWkh6dmFtT1FnNmw4PWXhWH0VEqgBCBoSowEKHDREaXJoemwyYlhKdWQzVEdMZ3BHRmFlQ2RDZz0SJGM4YjQ1MzljLWYxMWUtNGY1YS04YzYwLTI2Mjc4MWFjNzRkYxgAIAIoAjCQtebTnTE4rrap3sIwQISn5tOdMUocYVpjenNiV3BOajJ6b2dMOG5vRTd0Vzk3enNVPVofIh26Ymdrbm5iOHdtVUk0UlBtVkpXd0dpWGRjTVlBPWX78WnNEqcBCBESogEKHEw1SE5BcE1hUzBtczUwanRONzhTWUdhd0VkTT0SJDE5NGU1OTAwLTIxZTEtNDgyZC1hZTRlLTkxYjUwY2M0ZDkwMRgAIAAoADCD0rq/lDE4w6+p3sIwQMOvqd7CMEocMk53SGJrUjhObllxUDhmSnEvd1ZuQ0hqU3U0PVoeIhw0ME1qaUJVaXRxRDJiQktVemlRdmhMU0hRRms9ZdruP2YSqQEIJRKkAQocVE4rQnQvRFpXZWdxdUE3SjVJZmo4VEJyOUlVPRIkNTY4OGE3MjMtNzQ1ZS00NzI0LTk3NDctNmNkNjc5NWQzN2Q4GAAgAigCMI+15tOdMTi7t6newjBAkafm050xShxzWHBOM2pDYXhtczZFYzIxcEpod2VzaVBzQm89WiAiHv/3eDFiOFA0Y01IbU9PNHUwYW5FYUdCZjhzeEFjPWXMKF0fEqcBCBMSogEKHE5JZjREUkdNbktIMjIwZFd1SFJtbUNzTk1EUT0SJDJhMDMxZWNmLWFmZWMtNGYwOS1iOThhLWRjYzJjOTVkZTAwMBgAIAAoADC5q42Q0zA4z66NkNMwQM+ujZDTMEocRHVpeGYxN0RiTS8xMGJZSU05MU1PaHRPWEVrPVoeIhxKdUo4ZXMrdzBRVzJrY1hhanU2WDc5YmVadVE9ZQAAAAASqQEIKRKkAQocN3RjZGVRWGFMVkdudWpvdmNuWjVXcmtGOWFRPRIkODU2MTI4MTktMzMzNS00MDQwLWEwOWUtNGM4ZWYzYTUwMzYzGAAgAigCMJ+15tOdMTjat6newjBAlqfm050xShxwdTFTSmdYVkhRWnQvYzcvNlFxNVVpcWRjQVE9WiAiHv//aGhOaEUxUk1aZ25Mek1lR0gySzd2anVxbmJ3PWUnm1oxEqcBCBUSogEKHGE3R3pqdDYvallMRkNodlZQb2ZaNkw5NkxPaz0SJDhlNjFjZjNkLWEzNjEtNDBhYy1hNjUyLWYwNjNkN2UyODAwMRgAIAAoADDAlKCvkjE4s5egr5IxQLOXoK+SMUocRUdEMDYwTzYzRW5FQzZlQkpRQ3lTYlY0Yy84PVoeIhw1TVJxQ1hnSmN2dnhCRTZQZDRNRUVzUS9XbU09ZQAAAAASqAEIHBKjAQocNTBUbzJzenRUaU1wVVVtTlNOR3VzbHJ4YVpVPRIkODZjMjZlYmItNzVlOC00ZmEwLThhYmEtMjE1NDVjMzBkYjYzGAAgAigCMK6+5tOdMTjNsanewjBAh6fm050xShw0M0pCTm11OWVLQ0RVbTNVQTFFZjl2RXpjZ3c9Wh8iHe4vTTRZTjB3aWRxUkR6NHd4YnROaUxqMnFvb2s9ZRAw/+QSpwEIFBKiAQocamUvUitaQ0dxREJpUzJ3bHA4cUdyRjJsdW5zPRIkMGVmZjQ5MDUtNDU0OC00YjRkLWE0ZGUtMGQ5NGNkYzY1OGQ4GAAgACgAMOeNoK+SMTiakqCvkjFAmpKgr5IxShxzYWZEK0hCeHdrK1FTUEpFcG42TXRKQm5CVmM9Wh4iHEdvRGNmNUdwMFo4TnZRQVdhUVdSNHlGSVNzZz1lAAAAABKJAQgCEoQBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiRiNDIxMmMyNC0yZjgyLTU4ZjgtODJiNy0zZWZmODM4NTQ4MjIYACAAKAAw14K26rMwOOLfwtPnL0Di38LT5y9KHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEokBCAEShAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDEyOGMyODg0LTFiZDktNTExNC1iYzVkLTEzMTc4MDg1YWViZBgAIAAoADDXgrbqszA4w9/C0+cvQMPfwtPnL0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASqgEIKhKlAQocdytqU2ZQbkhZNTcyd1kzRDdoSWxudEZFR21rPRIkOTBmOTJkNTEtZWJmYy00NDNlLWFhNzYtZGIyYWNhOTI0ZWI5GAAgAigCMI615tOdMTjNtqnewjBAlqfm050xShxyL3BSMEdlcGgydzV1T2JSQ09aQXBzcDNGWm89WiEiH///tFZ6UTRFYncwM1VWWmdjSGRYV2JPUkRUV01OTT1lNlBPhBKnAQgZEqIBChxZNEozVXRZOVRmMVg1aFA2YURJdndTOFdxeFE9EiQ4YzUwZjRkZi1mNzM2LTQwZTQtYWZkYy1lMDFhYTA3OWRhOWIYACAAKAAw1a6p3sIwOIy3qd7CMECMt6newjBKHC91UjBFVHlkMU1UbnlFd0dRWkpXbXFyQmRWbz1aHiIcdUlRSzlVeVNrUnFPcmVmVXBLcTl2SHgwbUhvPWUAAAAAEqoBCDISpQEKHFdoNFhHTFgvejk1V2FBYkQ1Zkk2RHpKN2d5WT0SJDY3NjJhNzVjLTI3MzItNDZiYy1hMGUyLTE4MzMzMTRiZmI3MhgAIAIoAjCNtebTnTE44q2q79AwQJyn5tOdMUocRk9JQWNqNHc1YmpjNUxvSnRrODhsVE0vMmFVPVohIh////93QWxRTEJZSVlUY3R0MkZHRlQvRDhvTlFBSnM9ZQSEsi0SpwEIEhKiAQocZWJkM2x2Yk5ySnFKeG1Kd1F4ajVuT2NDcTk0PRIkYjRjMmJjZWYtZGFhZS00NTQ1LThhMjMtZTI1MTkwYjk3OTI1GAAgACgAMLirjZDTMDjhrY2Q0zBA4a2NkNMwShw2d0hpL21VeTA2RnVaRmRZOFB4K3RkVHlUREk9Wh4iHEJVSDhCOGRrNVpWU1g0NkhxUXdtU2Rpc0pybz1lAAAAABKrAQg5EqYBChxnbmJmaGZTRWhwSXRiK3VYSnVSTDVLTkh2cjg9EiRmOWRiZmI5Yy0wMGVlLTRmOTgtYTgyNy05ODdkOTk3MDZmODMYACAAKAAw5I2gr5IxOOuRoK+SMUDrkaCvkjFKHEJaNmtmOStmQVBldVl3Qit0RExjdmhuQkt1RT1aIiIg/////mVIcVZGTXYxU0NDbTRaVXMxQ08yTk1BV3JBVT1lAAAAABKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQ1NmZiNzE2ZS0yZWYxLTU2MzgtYmNjYS04OWM2YWZiOTkzZTIYACAAKAAw14K26rMwOJriwtPnL0Ca4sLT5y9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAMAA4AA==",
    "version": 1
 }

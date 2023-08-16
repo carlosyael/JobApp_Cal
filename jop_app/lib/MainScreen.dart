@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'LiquidacionTab.dart';
 import 'RegaliasTab.dart';
 import 'RetencionesTab.dart';
@@ -14,7 +13,7 @@ class MainScreen extends StatelessWidget {
           title: Text('Employee Calculator'),
           bottom: TabBar(
             tabs: [
-              Tab(text: 'Regalías'),
+              Tab(text: 'Sueldo Navidad'),
               Tab(text: 'Liquidación'),
               Tab(text: 'Retenciones'),
             ],

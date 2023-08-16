@@ -62,6 +62,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7",
       "packageUri": "lib/",
@@ -170,7 +176,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-08-14T12:59:40.366196Z",
+  "generated": "2023-08-16T14:33:49.302922Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }
