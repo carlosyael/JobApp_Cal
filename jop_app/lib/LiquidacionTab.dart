@@ -6,45 +6,117 @@ class LiquidacionTab extends StatefulWidget {
 }
 
 class _LiquidacionTabState extends State<LiquidacionTab> {
+  // Crear una clave global para el formulario
+  final _formKey = GlobalKey<FormState>();
+
+  // Crear controladores para los campos
   TextEditingController _fechaEntradaController = TextEditingController();
   TextEditingController _fechaSalidaController = TextEditingController();
   TextEditingController _salarioController = TextEditingController();
-  TextEditingController _horasExtrasController = TextEditingController();
 
-  String _motivoSalida = 'Desahucio';
+  // Crear variables para los checkbox
   bool _incluyePreaviso = false;
   bool _incluyeCesantia = false;
   bool _incluyeVacaciones = false;
   bool _incluyeSalarioNavidad = false;
 
+  // Crear una variable para guardar la liquidación total
   double _liquidacionTotal = 0.0;
 
+  // Crear una función para calcular la liquidación
   void _calcularLiquidacion() {
-    DateTime fechaEntrada = DateTime.parse(_fechaEntradaController.text);
-    DateTime fechaSalida = DateTime.parse(_fechaSalidaController.text);
-    double salario = double.parse(_salarioController.text);
-    double horasExtras = _horasExtrasController.text.isEmpty ? 0.0 : double.parse(_horasExtrasController.text);
+    // Validar el formulario
+    if (_formKey.currentState!.validate()) {
+      // Si el formulario es válido, obtener los valores de los campos
+      DateTime fechaEntrada = DateTime.parse(_fechaEntradaController.text);
+      DateTime fechaSalida = DateTime.parse(_fechaSalidaController.text);
 
-    Duration tiempoDeServicio = fechaSalida.difference(fechaEntrada);
-    int anosTrabajados = tiempoDeServicio.inDays ~/ 365;
-    int mesesTrabajados = (tiempoDeServicio.inDays % 365) ~/ 30;
+      double salario = double.parse(_salarioController.text);
 
-    double prestacionAnos = anosTrabajados * salario * 0.083; // 8.3% por año trabajado
-    double prestacionMeses = mesesTrabajados * salario * 0.07; // 7% por mes trabajado
-    double prestacionHorasExtras = horasExtras * salario * 0.028; // 2.8% por hora extra
+      int diasEnMes(int mes, int ano) {
+        return DateTime(ano, mes + 1, 0).day;
+      }
 
-    double cesantia = _incluyeCesantia ? (prestacionAnos + prestacionMeses) : 0.0;
-    double vacaciones = _incluyeVacaciones ? (salario * 0.083 * anosTrabajados) : 0.0;
-    double salarioNavidad = _incluyeSalarioNavidad ? (salario * 0.083 * mesesTrabajados) : 0.0;
+      int meses =
+          fechaSalida.month - fechaEntrada.month + (fechaSalida.year - fechaEntrada.year) * 12;
+      int dias = fechaSalida.day - fechaEntrada.day;
+      int mesesTrabajadosEnAnoSalida = fechaSalida.month;
+      int diasTrabajadosEnMesSalida = fechaSalida.day;
+      int anosTrabajados = fechaSalida.year - fechaEntrada.year;
+      if (fechaSalida.month < fechaEntrada.month ||
+          (fechaSalida.month == fechaEntrada.month && fechaSalida.day < fechaEntrada.day)) {
+        anosTrabajados--;
+      }
 
-    double prestacionTotal = prestacionAnos + prestacionMeses + prestacionHorasExtras + cesantia + vacaciones + salarioNavidad;
+      double preaviso = 0;
+      double cesantia = 0;
+      double vacaciones = 0;
+      double salarioNavidad = 0;
 
-    setState(() {
-      _liquidacionTotal = prestacionTotal;
-    });
+      if (_incluyePreaviso) {
+        if (meses < 3) {
+          preaviso = 0.0;
+        } else if (meses < 6) {
+          preaviso =
+              (salario * dias + salario * meses * 30) / (meses * 30) / 23.83 * 7;
+        } else if (meses < 12) {
+          preaviso =
+              (salario * dias + salario * meses * 30) / (meses * 30) / 23.83 * 14;
+        } else {
+          preaviso =
+              (salario * dias + salario * meses * 30) / (meses * 30) / 23.83 * 28;
+        }
+      }
+
+      if (_incluyeCesantia) {
+        if (meses < 3) {
+          cesantia = 0.0;
+        } else if (meses < 6) {
+          cesantia =
+              (salario * dias + salario * meses * 30) / (meses * 30) / 23.83 * 6;
+        } else if (meses < 12) {
+          cesantia =
+              (salario * dias + salario * meses * 30) / (meses * 30) / 23.83 * 13;
+        } else if (meses < 60) {
+          cesantia =
+              (salario * dias + salario * meses * 30) / (meses * 30) / 23.83 *
+                  (21 + (meses - 12) * (21 / 12));
+        } else {
+          cesantia =
+              (salario * dias + salario * meses * 30) / (meses * 30) / 23.83 *
+                  (23 * meses / 12);
+        }
+      }
+
+      if (_incluyeVacaciones) {
+        if (anosTrabajados > 5) {
+          vacaciones = (salario / 23.83) * 18;
+        } else {
+          vacaciones = (salario / 23.83) * 14;
+        }
+      }
+      if (_incluyeSalarioNavidad) {
+        int diasEnMesSalida =
+            diasEnMes(fechaSalida.month, fechaSalida.year); // Número de días en el mes de salida
+        double salarioPorDia =
+            salario / diasEnMesSalida; // Salario por día en el mes de salida
+        double salarioMes = salarioPorDia *
+            diasTrabajadosEnMesSalida; // Salario proporcional al número de días trabajados en el mes
+        salarioNavidad =
+            (salario * mesesTrabajadosEnAnoSalida + salarioMes) / 12;
+      }
+
+      _liquidacionTotal = preaviso + cesantia + vacaciones + salarioNavidad;
+
+      // Actualizar el estado con la liquidación calculada
+      setState(() {
+        _liquidacionTotal = _liquidacionTotal;
+      });
+    }
   }
 
-  void _seleccionarFecha(TextEditingController controller) async {
+  // Crear una función para seleccionar una fecha usando un date picker
+  Future<void> _seleccionarFecha(TextEditingController controller) async {
     DateTime? fechaSeleccionada = await showDatePicker(
       context: context,
       initialDate: DateTime.now(),
@@ -53,7 +125,9 @@ class _LiquidacionTabState extends State<LiquidacionTab> {
     );
 
     if (fechaSeleccionada != null) {
-      controller.text = fechaSeleccionada.toString().substring(0, 10);
+      setState(() {
+        controller.text = fechaSeleccionada.toString().substring(0, 10);
+      });
     }
   }
 
@@ -62,102 +136,110 @@ class _LiquidacionTabState extends State<LiquidacionTab> {
     return SingleChildScrollView(
       child: Padding(
         padding: EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            TextField(
-              controller: _fechaEntradaController,
-              decoration: InputDecoration(labelText: 'Fecha de Entrada'),
-              readOnly: true,
-              onTap: () => _seleccionarFecha(_fechaEntradaController),
-            ),
-            TextField(
-              controller: _fechaSalidaController,
-              decoration: InputDecoration(labelText: 'Fecha de Salida'),
-              readOnly: true,
-              onTap: () => _seleccionarFecha(_fechaSalidaController),
-            ),
-            TextField(
-              controller: _salarioController,
-              decoration: InputDecoration(labelText: 'Salario'),
-            ),
-            TextField(
-              controller: _horasExtrasController,
-              decoration: InputDecoration(labelText: 'Horas Extras'),
-            ),
-            DropdownButtonFormField<String>(
-              value: _motivoSalida,
-              items: [
-                'Desahucio',
-                'Despido',
-                'Dimisión',
-                'Renuncia',
-                'Mutuo acuerdo',
-                'Muerte del trabajador',
-                'Jubilación del trabajador',
-                'Incapacidad permanente del trabajador'
-              ].map((String value) {
-                return DropdownMenuItem<String>(
-                  value: value,
-                  child: Text(value),
-                );
-              }).toList(),
-              onChanged: (String? newValue) {
-                setState(() {
-                  _motivoSalida = newValue!;
-                });
-              },
-              decoration: InputDecoration(labelText: 'Motivo de Salida'),
-            ),
+        child: Form(
+          // Asignar la clave al formulario
+          key: _formKey,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              GestureDetector(
+                onTap: () => _seleccionarFecha(_fechaEntradaController),
+                child: AbsorbPointer(
+                  child: TextFormField(
+                    controller: _fechaEntradaController,
+                    decoration: InputDecoration(labelText: 'Fecha de Entrada'),
+                    // Validar que el campo no esté vacío
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Por favor, introduzca una fecha';
+                      }
+                      return null;
+                    },
+                  ),
+                ),
+              ),
+              GestureDetector(
+                onTap: () => _seleccionarFecha(_fechaSalidaController),
+                child: AbsorbPointer(
+                  child: TextFormField(
+                    controller: _fechaSalidaController,
+                    decoration: InputDecoration(labelText: 'Fecha de Salida'),
+                    // Validar que el campo no esté vacío
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Por favor, introduzca una fecha';
+                      }
+                      return null;
+                    },
+                  ),
+                ),
+              ),
+              TextFormField(
+                controller: _salarioController,
+                decoration: InputDecoration(labelText: 'Salario'),
+                // Validar que el campo no esté vacío y sea un número válido
+                validator: (value) {
+                  if (value == null || value.isEmpty) {
+                    return 'Por favor, introduzca un salario';
+                  }
+                  // Usar regex para validar que el valor sea un número
+                  final regex = RegExp(r'^\d+(\.\d+)?$');
+                  if (!regex.hasMatch(value)) {
+                    return 'Por favor, introduzca un número válido';
+                  }
+                  return null;
+                },
+              ),
+              CheckboxListTile(
+                title: Text('¿Ha sido usted Pre-avisado?'),
+                value: _incluyePreaviso,
+                onChanged: (value) {
+                  setState(() {
+                    _incluyePreaviso = value!;
+                  });
+                },
+              ),
+              CheckboxListTile(
+                title: Text('¿Desea incluir Cesantía?'),
+                value: _incluyeCesantia,
+                onChanged: (value) {
+                  setState(() {
+                    _incluyeCesantia = value!;
+                  });
+                },
+              ),
+      
             CheckboxListTile(
-              title: Text('Incluir Preaviso'),
-              value: _incluyePreaviso,
-              onChanged: (bool? newValue) {
-                setState(() {
-                  _incluyePreaviso = newValue!;
-                });
-              },
-            ),
-            CheckboxListTile(
-              title: Text('Incluir Cesantía'),
-              value: _incluyeCesantia,
-              onChanged: (bool? newValue) {
-                setState(() {
-                  _incluyeCesantia = newValue!;
-                });
-              },
-            ),
-            CheckboxListTile(
-              title: Text('Incluir Vacaciones'),
+              title: Text('¿Ha tomado las Vacaciones correspondientes al último año?'),
               value: _incluyeVacaciones,
-              onChanged: (bool? newValue) {
+              onChanged: (value) {
                 setState(() {
-                  _incluyeVacaciones = newValue!;
+                  _incluyeVacaciones = value!;
                 });
               },
             ),
             CheckboxListTile(
-              title: Text('Incluir Salario de Navidad'),
+              title: Text('¿Incluir salario de Navidad?'),
               value: _incluyeSalarioNavidad,
-              onChanged: (bool? newValue) {
+              onChanged: (value) {
                 setState(() {
-                  _incluyeSalarioNavidad = newValue!;
+                  _incluyeSalarioNavidad = value!;
                 });
               },
             ),
+            SizedBox(height: 16.0),
             ElevatedButton(
-              child: Text('Calcular Liquidación'),
               onPressed: _calcularLiquidacion,
+              child: Text('Calcular Liquidación'),
             ),
+            SizedBox(height: 16.0),
             Text(
-              'Liquidación Total: \$${_liquidacionTotal.toStringAsFixed(2)}',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              'Liquidación Calculada: $_liquidacionTotal',
+              style: TextStyle(fontSize: 18.0),
             ),
           ],
         ),
       ),
-    );
+    ));
   }
 }
-
-
